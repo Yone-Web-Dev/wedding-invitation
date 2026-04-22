@@ -1,0 +1,49 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leaf" x1="180" y1="120" x2="520" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F4A3C" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#3C6B57" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#1F2E26" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="leaf2" x1="1020" y1="80" x2="1420" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F4A3C" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#3C6B57" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#1F2E26" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="600" y1="160" x2="1180" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#E8D078" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#B8960C" stop-opacity="0.16"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.25"/>
+    </filter>
+  </defs>
+
+  <!-- soft tropical leaves silhouettes (subtle) -->
+  <g filter="url(#blur)">
+    <path d="M130 760 C220 610, 340 530, 490 500 C380 610, 310 720, 280 860 C220 840, 170 810, 130 760 Z" fill="url(#leaf)"/>
+    <path d="M420 860 C470 720, 560 610, 700 540 C620 680, 590 790, 610 900 C540 900, 475 892, 420 860 Z" fill="url(#leaf)" opacity="0.85"/>
+    <path d="M1480 780 C1390 610, 1270 520, 1120 480 C1235 615, 1310 730, 1340 870 C1405 850, 1450 820, 1480 780 Z" fill="url(#leaf2)"/>
+    <path d="M1140 880 C1088 720, 990 610, 850 540 C940 690, 972 805, 952 900 C1025 900, 1090 892, 1140 880 Z" fill="url(#leaf2)" opacity="0.82"/>
+
+    <!-- top canopy leaves -->
+    <path d="M240 120 C330 60, 450 40, 600 60 C470 120, 380 180, 330 260 C290 220, 258 175, 240 120 Z" fill="url(#leaf)" opacity="0.65"/>
+    <path d="M1360 140 C1270 70, 1140 40, 980 60 C1120 120, 1220 190, 1280 280 C1320 245, 1348 198, 1360 140 Z" fill="url(#leaf2)" opacity="0.6"/>
+  </g>
+
+  <!-- delicate floral & gold line accents -->
+  <g stroke="url(#gold)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path d="M120 720 C180 650, 260 610, 350 600" />
+    <path d="M1450 720 C1390 650, 1310 610, 1220 600" />
+    <path d="M520 840 C560 792, 610 765, 670 760" opacity="0.7"/>
+    <path d="M1080 840 C1040 792, 990 765, 930 760" opacity="0.7"/>
+
+    <!-- tiny blossoms -->
+    <path d="M360 598 C354 586, 342 580, 330 584 C343 586, 353 594, 360 606 C366 596, 380 592, 392 598 C380 598, 368 602, 360 610" />
+    <path d="M1240 598 C1234 586, 1222 580, 1210 584 C1223 586, 1233 594, 1240 606 C1246 596, 1260 592, 1272 598 C1260 598, 1248 602, 1240 610" />
+  </g>
+
+  <!-- ultra-soft center glow to keep it "divine" -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#gold)" opacity="0.08"/>
+</svg>

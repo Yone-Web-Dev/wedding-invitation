@@ -1,0 +1,26 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="20" y1="40" x2="340" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AF37" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#E8D078" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#B8960C" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- minimal gold botanical corner: designed to be mirrored/rotated -->
+  <g stroke="url(#g)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+    <path d="M40 320 C70 265, 105 225, 155 190 C210 152, 255 110, 310 40" />
+    <path d="M52 320 C84 272, 120 236, 170 204 C222 171, 266 130, 318 56" opacity="0.55"/>
+
+    <!-- leaves -->
+    <path d="M92 260 C72 250, 58 248, 44 252 C60 262, 74 274, 86 290" opacity="0.8"/>
+    <path d="M132 228 C112 218, 98 216, 84 220 C100 230, 114 242, 126 258" opacity="0.78"/>
+    <path d="M176 198 C154 190, 140 190, 126 196 C144 206, 160 218, 172 234" opacity="0.76"/>
+    <path d="M220 168 C198 160, 184 160, 170 166 C188 176, 204 188, 216 204" opacity="0.74"/>
+    <path d="M264 132 C242 124, 228 124, 214 130 C232 140, 248 152, 260 168" opacity="0.72"/>
+
+    <!-- bloom -->
+    <path d="M162 194 C156 182, 144 176, 132 180 C145 182, 155 190, 162 202 C168 192, 182 188, 194 194 C182 194, 170 198, 162 206" opacity="0.9"/>
+    <path d="M246 136 C240 124, 228 118, 216 122 C229 124, 239 132, 246 144 C252 134, 266 130, 278 136 C266 136, 254 140, 246 148" opacity="0.86"/>
+  </g>
+</svg>
