@@ -56,7 +56,7 @@ const cinzelDecorative = Cinzel_Decorative({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wedding-invitation-9-5-26.vercel.app"),
+  metadataBase: new URL("https://soeandnawweddinginvitation.vercel.app"),
   title: "Naw Hae So Paw & Soe Yan Naing — Wedding Invitation",
   description:
     "You are cordially invited to celebrate the marriage of Naw Hae So Paw and Soe Yan Naing on Saturday, 9 May 2026 at Judson Church, Yangon University.",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Naw Hae So Paw & Soe Yan Naing — Wedding",
     description: "Saturday, 9 May 2026 · Judson Church, Yangon University",
     type: "website",
-    url: "https://wedding-invitation-9-5-26.vercel.app",
+    url: "https://soeandnawweddinginvitation.vercel.app",
     images: [
       {
         url: "/invitation-letter.png",
