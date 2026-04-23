@@ -68,9 +68,11 @@ export const metadata: Metadata = {
     url: "https://soeandnawweddinginvitation.vercel.app",
     images: [
       {
-        url: "/invitation-letter.png",
-        width: 1200,
-        height: 630,
+        url: "https://soeandnawweddinginvitation.vercel.app/social-preview.png",
+        secureUrl: "https://soeandnawweddinginvitation.vercel.app/social-preview.png",
+        type: "image/png",
+        width: 1024,
+        height: 540,
         alt: "Naw Hae So Paw and Soe Yan Naing wedding invitation",
       },
     ],
@@ -79,7 +81,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Naw Hae So Paw & Soe Yan Naing — Wedding",
     description: "Saturday, 9 May 2026 · Judson Church, Yangon University",
-    images: ["/invitation-letter.png"],
+    images: ["https://soeandnawweddinginvitation.vercel.app/social-preview.png"],
   },
 };
 
